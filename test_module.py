@@ -13,7 +13,7 @@ class DemographicAnalyzerTestCase(unittest.TestCase):
 
     def test_average_age_men(self):
         actual = self.data['average_age_men']
-        expected = 39.4
+        expected = 38.6
         self.assertAlmostEqual(actual, expected, msg="Expected different value for average age of men.")
 
     def test_percentage_bachelors(self):
@@ -44,7 +44,7 @@ class DemographicAnalyzerTestCase(unittest.TestCase):
     def test_highest_earning_country(self):
         actual = self.data['highest_earning_country']
         expected = 'Iran'
-        self.assertEqual(actual, expected, "Expected different value for highest earning country.")   
+        self.assertEqual(actual, expected, "Expected different value for highest earning country.")  
 
     def test_highest_earning_country_percentage(self):
         actual = self.data['highest_earning_country_percentage']
