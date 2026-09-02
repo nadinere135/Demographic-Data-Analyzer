@@ -1,7 +1,7 @@
 import pandas as pd
 
-import os
-os.chdir("C:\\Users\\Nadin\\OneDrive\\Dokumente\\GitHub\\boilerplate-demographic-data-analyzer")
+# import os
+# os.chdir("C:\\Users\\Nadin\\OneDrive\\Dokumente\\GitHub\\boilerplate-demographic-data-analyzer")
 # print("Aktueller Pfad:", os.path.dirname(__file__))  # Ordner des Skripts
 # print("Arbeitsverzeichnis:", os.getcwd())            # Wo Python sucht
 
